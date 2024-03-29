@@ -31,14 +31,14 @@ $font: (
 );
 
 // Palette.
-{% assign accent = site.accent_color | default: '#2d72d9' %}
+{% assign accent = site.accent_color | default: '#000000' %}
 $palette: (
   accent:    {{ accent }},
   primary:   #6b747a,
   secondary: #2c343c,
   meta:      #9ba6ad,
-  border:    #d7d7d7,
-  bg:        #fbfbfb
+  border:    #e3e6ea,
+  bg:        #f9f9fa
 );
 
 // Imports
